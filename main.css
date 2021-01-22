@@ -8,6 +8,22 @@
   color: #f00;
 } */
 
-.child {
+/* .child {
   cursor: pointer;
+} */
+/* 
+.box {
+  display: none;
+  width: 60px;
+  height: 60px;
+  background-color: #666;
+} */
+
+.box {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background-color: #f66;
 }
