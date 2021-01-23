@@ -19,11 +19,306 @@
   background-color: #666;
 } */
 
-.box {
+/* .box {
   position: relative;
   top: 0;
   left: 0;
   width: 60px;
   height: 60px;
   background-color: #f66;
+} */
+
+/* 長いコンテンツを作成
+#contents {
+  height: 2000px;
+  background: linear-gradient(gray, white);
+}
+
+/* トップに戻るボタン */
+/* .back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  display: none;
+  width: 40px;
+  height: 40px;
+
+  background-color: #f0f0f0;
+  color: #333;
+  opacity: 0.6;
+
+  font-size: 1.6rem;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* マウスを乗せた時に透明度を変える */
+/* .back-to-top:hover {
+  opacity: 1;
+} */
+
+/* ページ全体での文字色の設定
+body {
+  color: #3F4548;
+}
+
+/* ulのデフォルトスタイルを消去 */
+/* .tabs-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* タブの基本スタイル */
+/* .tabs-menu li {
+  float: left;
+  margin-right: 8px;
+  margin-bottom: -1px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px 4px 0 0; */
+
+  /* 各プロパティをふわっと変える演出 */
+  /* transition: all .15s;
+}
+.tabs-menu a {
+  display: block;
+  padding: 10px 20px;
+  color: #557F95;
+  text-decoration: none;
+} */
+
+/* 非選択のタブにマウスカーソルを乗せたら色を変える */
+/* .tabs-menu li:not(.active):hover {
+  border-color: #f0f0f0 #f0f0f0 #999;
+  background-color: #f0f0f0;
+} */
+
+/* 選択中のタブの色を設定 */
+/* .tabs-menu .active {
+  border-color: #999 #999 transparent #999;
+  background-color: #fff;
+}
+.tabs-menu .active a {
+  color: #3F4548;
+}
+
+/* タブコンテンツ表示エリア */
+/* .tabs-content {
+  clear: both;
+  border: 1px solid #999;
+  border-radius: 0 4px 4px 4px;
+  padding: 10px;
+}
+
+/* 各タブのコンテンツはデフォルトで非表示 */
+/* .tabs-content section {
+  display: none;
+} */
+
+/* body {
+  color: #3F4548;
+}
+
+/* アコーディオンのタイトル部分 */
+/* .accordion-title {
+  margin: 0;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  font-size: 1rem;
+}
+.accordion-title a {
+  display: block;
+  padding: 6px;
+  color: #3F4548;
+  text-decoration: none;
+} */
+
+/* アコーディオンのコンテンツ部分 */
+/* .accordion-content {
+  /* 初期状態では非表示 */
+  /* display: none;
+
+  height: 60px;
+  padding: 12px 6px;
+  border: 1px solid #ccc;
+} */
+/* accordion-content-activeクラスが付いているものは初期状態で表示しておく */
+/* .accordion-content.accordion-content-active {
+  display: block;
+} */
+
+/* カルーセルの表示エリア
+.carousel {
+  /* 子要素でposition:absoluteを使うために必要 */
+  /* position: relative;
+
+  /* 400x400の領域からはみ出た部分は非表示 */
+  /* overflow: hidden;
+  width: 400px;
+  height: 400px;
+
+  /* 左右中央寄せ */
+  /* margin: 0 auto;
+}  */
+
+/* 矢印の基本スタイル */
+/* .carousel-control {
+  display: block;
+  height: 50px;
+  width: 30px;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height:45px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  opacity: .5; */
+
+  /* 透明度をふわっと変える演出 */
+  /* transition: opacity .15s;
+} */
+/* マウスが乗ったら濃くする */
+/* .carousel-control:hover {
+  opacity: .8;
+} */
+
+/* 左矢印 */
+/* .carousel-control-prev {
+  position: absolute;
+  left: 0;
+  top: 175px;
+  text-indent: -2px;  /* 矢印の横方向の位置を調整する */
+/* } */
+
+/* 右矢印 */
+/* .carousel-control-next {
+  position: absolute;
+  right: 0;
+  top: 175px;
+  text-indent: 2px;
+} */
+
+/* スライドのul */
+/* .slides { */
+  /* .carouselの左上隅に表示 */
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+
+  /* 横に長いひと続きの写真にする */
+  /* width: 99999px; */
+
+  /* ulのデフォルトスタイルを消去 */
+  /* margin: 0;
+  padding: 0;
+  list-style-type: none;
+} */
+
+/* 各スライドを横につなげる */
+/* .slides li {
+  float: left;
+  width: 400px;
+  height: 400px;
+} */
+
+/* 後ろを覆う黒い幕 */
+/* .overlay { */
+  /* 画面いっぱいに表示 */
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; */
+
+  /* 他のコンテンツより上のレイヤーに表示 */
+  /* z-index: 10000; */
+
+  /* 初期状態では非表示 */
+  /* display: none; */
+
+  /* 透けた黒色にする */
+  /* background-color:rgba(0, 0, 0, 0.8); */
+
+  /* マウスカーソルを手の形にする */
+  /* cursor: pointer;
+} */
+
+/* 拡大写真の表示エリア */
+/* .popup-content { */
+  /* 60x60で左右中央に表示する */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  text-align: center;
+
+  /* 枠をつける */
+  /* padding: 4px;
+  background-color: #ccc;
+} */
+
+/* 下にだけ余白を付ける */
+p {
+  margin: 0 0 1em 0;
+}
+
+/* 各スライドの基本スタイル */
+.parallax-section {
+  /* 画面全体を覆う */
+  height: 100vh;
+  width: 100%;
+
+  /* 背景が画面全体を覆うようにする */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* 1枚目のスライド */
+.parallax-section-1 {
+  background-image: url(lesson4-assets/cat1.jpg);
+}
+
+/* 2枚目のスライド */
+.parallax-section-2 {
+  background-image: url(lesson4-assets/cat2.jpg);
+}
+
+/* 3枚目のスライド */
+.parallax-section-3 {
+  background-image: url(lesson4-assets/cat3.jpg);
+}
+
+/* 4枚目のスライド */
+.parallax-section-4 {
+  background-image: url(lesson4-assets/cat4.jpg);
+}
+
+/* テキストのスタイル */
+.text {
+  /* 左右中央寄せ */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  /* テキストをセンタリング */
+  text-align: center;
+
+  font-size: 2rem;
+  color: #eee;
+
+  /* 影を付けて読みやすくする */
+  text-shadow:
+  -1px -1px 6px #000,
+  1px -1px 6px #000,
+  -1px 1px 6px #000,
+  1px 1px 6px #000;
 }
